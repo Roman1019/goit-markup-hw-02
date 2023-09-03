@@ -100,7 +100,6 @@ ul {
 /* section fist*/
 .main-section {
   background-color: var(--c-brnd);
-  height: 600px;
   /* flex-shrink: 0; */
 }
 
@@ -120,8 +119,6 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: inline-flex;
-  gap: 10px;
   cursor: pointer;
 }
 
@@ -138,7 +135,6 @@ ul {
   color: var(--c-brnd);
   height: 1px;
   margin: -1px;
-  border: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
