@@ -30,15 +30,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-/* .logo-accent {
-  color: var(--c-logo);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-} */
 
 .logo-accent-dark {
   color: var(--c-brnd);
@@ -108,7 +99,6 @@ ul {
 /* section fist*/
 .main-section {
   background-color: var(--c-brnd);
-  width: 1440px;
   height: 600px;
   flex-shrink: 0;
 }
@@ -129,11 +119,7 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
   gap: 10px;
   cursor: pointer;
 }
@@ -149,12 +135,9 @@ ul {
 /* section secondary */
 .visually-hidden {
   color: var(--c-brnd);
-  position: absolute;
-  width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -211,7 +194,6 @@ ul {
 /* footer */
 .main-footer {
   background-color: var(--c-brnd);
-  width: 1440px;
   height: 312px;
   flex-shrink: 0;
 }
