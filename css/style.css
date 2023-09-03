@@ -5,6 +5,7 @@
   --c-header-active: #404bbf;
   --c-text-light: #fff;
   --c-text-footer: #f4f4fd;
+  --c-bg-thirt: #ffffff;
 }
 
 body {
@@ -100,7 +101,7 @@ ul {
 .main-section {
   background-color: var(--c-brnd);
   height: 600px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .hero-title {
@@ -164,7 +165,7 @@ ul {
   background-color: var(--c-text-footer);
 }
 .bgcolor-for-team {
-  background-color: var(--c-text-light);
+  background-color: var(--c-bg-thirt);
 }
 
 .title-section-thirt {
@@ -195,7 +196,7 @@ ul {
 .main-footer {
   background-color: var(--c-brnd);
   height: 312px;
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
 }
 
 .footer-text {
