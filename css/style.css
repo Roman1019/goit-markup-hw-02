@@ -189,9 +189,10 @@ ul {
   letter-spacing: 0.02em;
 }
 
-bgcolor-for-myteam {
+.bgcolor-for-myteam {
   background-color: var(--c-bg-thirt);
 }
+
 /* footer */
 .main-footer {
   background-color: var(--c-brnd);
