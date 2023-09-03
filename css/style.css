@@ -161,8 +161,8 @@ ul {
   background-color: var(--c-text-footer);
 }
 
-ul {
-  background-color: (--c-bg-thirt);
+.bgcolor-for-team {
+  background-color: var(--c-bg-thirt);
 }
 
 .title-section-thirt {
