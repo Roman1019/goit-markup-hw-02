@@ -176,6 +176,7 @@ ul {
 }
 
 .title-people-prod {
+  color: var(--c-brnd);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
