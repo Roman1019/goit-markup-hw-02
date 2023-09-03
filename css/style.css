@@ -22,6 +22,7 @@ ul {
 
 /* header */
 .logo {
+  color: var(--c-logo);
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -29,7 +30,7 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.logo-accent {
+/* .logo-accent {
   color: var(--c-logo);
   font-size: 18px;
   font-style: normal;
@@ -37,7 +38,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
+} */
 
 .logo-accent-dark {
   color: var(--c-brnd);
@@ -57,6 +58,10 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.nav-link:focus {
+  color: var(--c-header-active);
+}
+
 .nav-link-style {
   color: var(--c-brnd);
   font-size: 16px;
@@ -69,6 +74,10 @@ ul {
 }
 
 .nav-link-style:active {
+  color: var(--c-header-active);
+}
+
+.nav-link-style:focus {
   color: var(--c-header-active);
 }
 
@@ -85,6 +94,10 @@ ul {
 }
 
 .nav-contact:active {
+  color: var(--c-header-active);
+}
+
+.nav-contact:focus {
   color: var(--c-header-active);
 }
 
