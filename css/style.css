@@ -133,7 +133,6 @@ ul {
 /* section secondary */
 .visually-hidden {
   color: var(--c-brnd);
-  height: 1px;
   margin: -1px;
   white-space: nowrap;
   clip-path: inset(100%);
@@ -193,7 +192,6 @@ ul {
 /* footer */
 .main-footer {
   background-color: var(--c-brnd);
-  height: 312px;
   /* flex-shrink: 0; */
 }
 
