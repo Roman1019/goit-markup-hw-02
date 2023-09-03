@@ -148,6 +148,7 @@ ul {
 
 /* section secondary */
 .visually-hidden {
+  color: var(--c-brnd);
   position: absolute;
   width: 1px;
   height: 1px;
@@ -183,11 +184,12 @@ ul {
 }
 
 .title-section-thirt {
+  color: var(--c-brnd);
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
