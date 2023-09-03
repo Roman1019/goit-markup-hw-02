@@ -1,0 +1,175 @@
+:root {
+  --c-brnd: #2e2f42;
+  --c-logo: #4d5ae5;
+  --c-contact: #434455;
+  --c-header-active: #404bbf;
+  --c-text-light: #fff;
+  --c-text-footer: #f4f4fd;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--c-brnd);
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+/* header */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+}
+.logo-accent {
+  color: var(--c-logo);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03;
+  text-transform: uppercase;
+}
+
+.nav-link {
+  color: var(--c-brnd);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+.nav-link:active {
+  color: var(--c-header-active);
+}
+
+.nav-contact {
+  color: var(--c-contact);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+  font-style: normal;
+}
+
+.nav-contact:active {
+  color: var(--c-header-active);
+}
+
+/* section fist*/
+.main-section {
+  background-color: var(--c-brnd);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  color: var(--c-text-light);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02;
+}
+
+.hero-button {
+  color: var(--c-text-light);
+  background-color: var(--c-logo);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.hero-button:hover {
+  background-color: var(--c-header-active);
+}
+
+/* section secondary */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.main-text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+}
+
+.par-text {
+  color: var(--c-contact);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+/* section thirt */
+.title-s-thirt {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.2;
+  text-transform: capitalize;
+}
+
+.title-people-prod {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02;
+}
+
+.title-about {
+  color: var(--c-contact);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+
+/* footer */
+.main-footer {
+  background-color: var(--c-brnd);
+  width: 1440px;
+  height: 312px;
+  flex-shrink: 0;
+}
+
+.footer-text {
+  color: var(--c-text-footer);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02;
+}
+.logo-accent-secondary {
+  color: var(--c-text-footer);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03px;
+  text-transform: uppercase;
+}
