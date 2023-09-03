@@ -9,7 +9,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--c-brnd);
+  color: var(--c-contact);
+  background-color: var(--c-text-light);
 }
 
 a {
@@ -24,8 +25,8 @@ ul {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .logo-accent {
@@ -33,8 +34,18 @@ ul {
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-accent-dark {
+  color: var(--c-brnd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 700;
   line-height: 1.16;
-  letter-spacing: 0.03;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -43,10 +54,21 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
-.nav-link:active {
+.nav-link-style {
+  color: var(--c-brnd);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.nav-link-style:hover {
+  color: var(--c-header-active);
+}
+
+.nav-link-style:active {
   color: var(--c-header-active);
 }
 
@@ -54,12 +76,20 @@ ul {
   color: var(--c-contact);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
   font-style: normal;
+}
+
+.nav-contact:hover {
+  color: var(--c-header-active);
 }
 
 .nav-contact:active {
   color: var(--c-header-active);
+}
+
+.contact-style {
+  font-style: normal;
 }
 
 /* section fist*/
@@ -76,7 +106,7 @@ ul {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
@@ -85,7 +115,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   display: inline-flex;
@@ -96,6 +126,10 @@ ul {
 }
 
 .hero-button:hover {
+  background-color: var(--c-header-active);
+}
+
+.hero-button:focus {
   background-color: var(--c-header-active);
 }
 
@@ -117,23 +151,30 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .par-text {
   color: var(--c-contact);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 /* section thirt */
-.title-s-thirt {
+.bgcolor-section-thirt {
+  background-color: var(--c-text-footer);
+}
+.bgcolor-for-team {
+  background-color: var(--c-text-light);
+}
+
+.title-section-thirt {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.2;
+  letter-spacing: 0.2em;
   text-transform: capitalize;
 }
 
@@ -141,14 +182,14 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 .title-about {
   color: var(--c-contact);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
@@ -163,13 +204,13 @@ ul {
   color: var(--c-text-footer);
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02;
+  letter-spacing: 0.02em;
 }
 .logo-accent-secondary {
   color: var(--c-text-footer);
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
